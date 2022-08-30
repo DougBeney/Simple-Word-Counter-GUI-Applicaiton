@@ -33,4 +33,6 @@ field.bind('<Control-a>', select_all)
 label.grid(column=0, row=1)
 field.grid(column=0, row=0)
 
+field.focus_set()
+
 root.mainloop()
